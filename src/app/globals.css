@@ -1,11 +1,12 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  /* --- CUSTOM KONFIGURASI DOTLINE TATTU --- */
+  /* --- CUSTOM KONFIGURASI Dotlinetattu --- */
   --font-graduated: var(--font-graduated);
   
   /* "Orange Campur Merah" (Spiced Gingerbread) */
